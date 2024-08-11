@@ -1,0 +1,33 @@
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe.config
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.pdb
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.xml
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbprojResolveAssemblyReference.cache
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Form1.resources
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Resources.resources
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbproj.GenerateResource.Cache
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.exe
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.xml
+C:\Users\emira\Desktop\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe.config
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.xml
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.xml
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbprojResolveAssemblyReference.cache
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Form1.resources
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Resources.resources
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Other\Abandoned Projects\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbproj.GenerateResource.Cache
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe.config
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\bin\Debug\Basic Webcam.xml
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbprojResolveAssemblyReference.cache
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Form1.resources
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic_Webcam.Resources.resources
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.vbproj.GenerateResource.Cache
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.xml
+C:\Users\Emir\Desktop\Everything\Projects\VB.NET\Basic Webcam\Basic Webcam\obj\x86\Debug\Basic Webcam.pdb

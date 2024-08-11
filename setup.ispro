@@ -1,0 +1,64 @@
+; InstallSimple project
+
+[Setup]
+WindowTitle=Basic Webcam 1.0 Setup Wizard
+ProductName=Basic Webcam 1.0
+
+[Graphics]
+SplashScreen=
+SplashScreenDelay=3
+Header=
+HeaderJustify=Right
+HeaderFontColor=0
+WizardBitmap=
+WizardFontColor=0
+
+[FirstMessage]
+Welcome to the Basic Webcam 1.0 Setup Wizard! This setup program will install Basic Webcam 1.0 to your computer.
+[LastMessage]
+Basic Webcam 1.0 is now installed on your computer.
+
+Thanks for choosing Basic Webcam 1.0!
+
+[LicenseAgreement]
+Copyright 2024 Emir Alp Koçak
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[SetupFiles]
+SourceFolder=C:\Users\Emir\Desktop\New folder
+SpecialFolder=Program Files
+SetupPath=Basic Webcam
+SetupFile=C:\Users\Emir\Desktop\Setup.exe
+
+[Shortcuts]
+ProgramGroup=
+Basic Webcam.exe=dm
+TouchlessLib.dll=
+
+[Registry]
+
+[Requirements]
+OperatingSystem=7
+NetFramework=4.0
+NetFrameworkLink=https://dotnet.microsoft.com/download/dotnet-framework
+AdminRights=1
+
+[AfterInstalling]
+Reboot=0
