@@ -1,0 +1,16 @@
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.csproj.AssemblyReference.cache
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic_Webcam.Form1.resources
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic_Webcam.Properties.Resources.resources
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.csproj.GenerateResource.cache
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.csproj.CoreCompileInputs.cache
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.exe
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.pdb
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.Video.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.Video.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Debug\Basic Webcam.csproj.CopyComplete
