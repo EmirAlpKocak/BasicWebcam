@@ -1,7 +1,7 @@
 # BasicWebcam
 Basic Webcam Application for Windows
 
-Basic Webcam is a webcam application for Windows. You can use it when recording a screen video. You can also take a photo of yourself. It supports mirroring. This tool can be used with a screen recorder as a webcam (if your screen recorder has no webcam feature) or if you are using either an old Windows version or a modified version which does not include UWP Camera app.
+BasicWebcam (Basic Webcam) is a webcam application for Windows. You can use it when recording a screen video. You can also take a photo of yourself. It supports mirroring. This tool can be used with a screen recorder as a webcam (if your screen recorder has no webcam feature) or if you are using either an old Windows version or a modified version which does not include UWP Camera app.
 
 You can select one of your camera drivers to use from the list. You can right click to access the menu. Here you can enable always on top and compact view, you can take a photo from the camera, you can start/stop the camera, you can select camera driver, you can view about page and exit from the program. 
 
@@ -12,3 +12,9 @@ Version 1.0 and 1.1 is coded using VB.NET with TouchLessLib. Version 1.2 is a co
 Requires .NET Framework 4.7.2 or later.
 
 Requires Windows 7 or later.
+
+## Screenshots
+
+<img width="340" height="286" alt="Screenshot 2026-11-16 225638" src="https://github.com/user-attachments/assets/74fae68a-dd60-4290-a2f5-57014dcae4f5" />
+
+<img width="524" height="360" alt="Screenshot 2026-11-16 225649" src="https://github.com/user-attachments/assets/73575732-2745-4a05-8ad8-fadcb5a515e6" />
