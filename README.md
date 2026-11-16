@@ -7,7 +7,7 @@ You can select one of your camera drivers to use from the list. You can right cl
 
 You will get a warning message if no camera drivers has been detected. If you have a camera and you can't see it on the program, please check if it's connected properly and check if it requires a driver. You need to allow desktop programs webcam access via settings on newer Windows versions.
 
-Version 1.0 and 1.1 is coded using VB.NET with TouchLessLib. Version 1.2 is a complete rewrittion of the program using C# with AForge LIB.
+Version 1.0 and 1.1 is coded using VB.NET with TouchLessLib. Version 1.2 is a complete rewritten version of the program using C# with AForge LIB.
 
 Requires .NET Framework 4.7.2 or later.
 
