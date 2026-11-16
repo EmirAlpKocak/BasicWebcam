@@ -14,3 +14,19 @@ C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Release\Basic Webc
 C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Release\Basic Webcam.exe
 C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Release\Basic Webcam.pdb
 C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\obj\Release\Basic Webcam.csproj.AssemblyReference.cache
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\avcodec-57.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\avdevice-57.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\avfilter-6.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\avformat-57.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\avutil-55.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\postproc-54.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\swresample-2.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\swscale-4.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.dll.config
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.Video.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.Video.FFMPEG.dll
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.Video.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Accord.Video.FFMPEG.xml
+C:\Users\Emir\Desktop\Everything\Projects\C#\Basic Webcam\bin\Release\Basic Webcam.exe.config

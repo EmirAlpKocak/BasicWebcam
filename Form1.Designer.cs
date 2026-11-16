@@ -35,9 +35,15 @@ namespace Basic_Webcam
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.enableAlwaysOnTopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enableCompactViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enableMirroringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.takePhotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startStopCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cameraPropertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visitWebsiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -58,19 +64,22 @@ namespace Basic_Webcam
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.DoubleClick += new System.EventHandler(this.pictureBox1_DoubleClick);
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.enableAlwaysOnTopToolStripMenuItem,
             this.enableCompactViewToolStripMenuItem,
+            this.enableMirroringToolStripMenuItem,
             this.takePhotoToolStripMenuItem,
             this.selectCameraToolStripMenuItem,
             this.startStopCameraToolStripMenuItem,
-            this.aboutToolStripMenuItem,
+            this.cameraPropertiesToolStripMenuItem,
+            this.helpToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(190, 158);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(190, 202);
             // 
             // enableAlwaysOnTopToolStripMenuItem
             // 
@@ -90,9 +99,20 @@ namespace Basic_Webcam
             this.enableCompactViewToolStripMenuItem.Text = "Enable Compact View";
             this.enableCompactViewToolStripMenuItem.Click += new System.EventHandler(this.enableCompactViewToolStripMenuItem_Click);
             // 
+            // enableMirroringToolStripMenuItem
+            // 
+            this.enableMirroringToolStripMenuItem.Checked = true;
+            this.enableMirroringToolStripMenuItem.CheckOnClick = true;
+            this.enableMirroringToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.enableMirroringToolStripMenuItem.Name = "enableMirroringToolStripMenuItem";
+            this.enableMirroringToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.enableMirroringToolStripMenuItem.Text = "Enable Mirroring";
+            this.enableMirroringToolStripMenuItem.Click += new System.EventHandler(this.enableMirroringToolStripMenuItem_Click);
+            // 
             // takePhotoToolStripMenuItem
             // 
             this.takePhotoToolStripMenuItem.Name = "takePhotoToolStripMenuItem";
+            this.takePhotoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.takePhotoToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.takePhotoToolStripMenuItem.Text = "Take Photo";
             this.takePhotoToolStripMenuItem.Click += new System.EventHandler(this.takePhotoToolStripMenuItem_Click);
@@ -111,10 +131,49 @@ namespace Basic_Webcam
             this.startStopCameraToolStripMenuItem.Text = "Start/Stop Camera";
             this.startStopCameraToolStripMenuItem.Click += new System.EventHandler(this.startStopCameraToolStripMenuItem_Click);
             // 
+            // cameraPropertiesToolStripMenuItem
+            // 
+            this.cameraPropertiesToolStripMenuItem.Name = "cameraPropertiesToolStripMenuItem";
+            this.cameraPropertiesToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.cameraPropertiesToolStripMenuItem.Text = "Camera Properties";
+            this.cameraPropertiesToolStripMenuItem.Click += new System.EventHandler(this.cameraPropertiesToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkForUpdatesToolStripMenuItem,
+            this.visitWebsiteToolStripMenuItem,
+            this.contactToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // checkForUpdatesToolStripMenuItem
+            // 
+            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
+            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
+            // 
+            // visitWebsiteToolStripMenuItem
+            // 
+            this.visitWebsiteToolStripMenuItem.Name = "visitWebsiteToolStripMenuItem";
+            this.visitWebsiteToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.visitWebsiteToolStripMenuItem.Text = "Visit Website";
+            this.visitWebsiteToolStripMenuItem.Click += new System.EventHandler(this.visitWebsiteToolStripMenuItem_Click);
+            // 
+            // contactToolStripMenuItem
+            // 
+            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.contactToolStripMenuItem.Text = "Contact";
+            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
+            // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -132,6 +191,9 @@ namespace Basic_Webcam
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(65, 91);
             this.label1.Name = "label1";
@@ -141,6 +203,9 @@ namespace Basic_Webcam
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(68, 107);
@@ -150,6 +215,9 @@ namespace Basic_Webcam
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Location = new System.Drawing.Point(131, 134);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -170,7 +238,7 @@ namespace Basic_Webcam
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Basic Webcam";
+            this.Text = "BasicWebcam";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -190,11 +258,17 @@ namespace Basic_Webcam
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem selectCameraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem startStopCameraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem enableMirroringToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkForUpdatesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem visitWebsiteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cameraPropertiesToolStripMenuItem;
     }
 }
 
