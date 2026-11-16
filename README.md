@@ -9,6 +9,6 @@ You will get a warning message if no camera drivers has been detected. If you ha
 
 Version 1.0 and 1.1 is coded using VB.NET with TouchLessLib. Version 1.2 is a complete rewrittion of the program using C# with AForge LIB.
 
-Requires .NET Framework 4.0 or later.
+Requires .NET Framework 4.7.2 or later.
 
-Requires Windows XP or later.
+Requires Windows 7 or later.
